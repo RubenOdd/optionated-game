@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5576879881637293466}
   - component: {fileID: 5576879881637293469}
+  - component: {fileID: 95312465114977788}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -78,6 +79,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movePoint: {fileID: 5576879881307991787}
+  notWalkable:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &95312465114977788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576879881637293468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c4627743f80464a910b4048105e062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profileView: {fileID: 0}
+  inventoryView: {fileID: 0}
 --- !u!1 &5576879881868778303
 GameObject:
   m_ObjectHideFlags: 0

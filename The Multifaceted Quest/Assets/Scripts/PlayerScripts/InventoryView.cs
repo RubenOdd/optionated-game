@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProfileView : MonoBehaviour
+public class InventoryView : MonoBehaviour
 {
     private bool isOpen = false;
 
@@ -15,7 +15,7 @@ public class ProfileView : MonoBehaviour
         }
     }
 
-    public void TryToOpenProfile()
+    public void TryToOpenInventory()
     {
         if (gameObject.activeSelf)
         {
